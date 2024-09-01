@@ -28,7 +28,7 @@ const TodoList = () => {
           </Button>
         </StyledListItem>
       ))}
-      {isLoading && <SpinnerComponent />}
+      {isLoading && <SpinnerComponent />},
     </>
   );
 };
